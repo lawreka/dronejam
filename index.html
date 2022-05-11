@@ -10,8 +10,7 @@
         <a-sphere position="-150 1.25 -50" radius="109" color="#eb7d39" material="shader: flat; src: planets/sun.jpeg; side: double;"></a-sphere>
         <a-sound id="sunSound1" src="sounds/sun.mp3" autoplay="false" position="-245 1.25 -50" loop="true" volume="30"></a-sound>
         <a-sound id="sunSound2" src="sounds/sun.mp3" autoplay="false" position="-95 1.25 -50" loop="true" volume="30"></a-sound>
-        <a-sound id="sunSound3" src="sounds/sun.mp3" autoplay="false" position="-150 1.25 -50" loop="true" volume="30">
-        </a-sound>
+        <a-sound id="sunSound3" src="sounds/sun.mp3" autoplay="false" position="-150 1.25 -50" loop="true" volume="30"></a-sound>
 
         <!-- merc -->
         <a-sphere position="-20 1.25 -50" radius="0.38" color="#7f7980" material="shader: flat; src: planets/merc.jpeg; side: double;"></a-sphere>
@@ -37,13 +36,24 @@
 
         <!-- jupiter -->
         <a-sphere position="40 1.25 -50" radius="10.97" color="#f2e2bc" material="shader: flat; src: planets/jupiter.jpeg; side: double;"></a-sphere>
+        <a-sound id="jupiterSound" src="sounds/jupiter.mp3" autoplay="false" position="40 1.25 -50" loop="true" volume="4"></a-sound>
+
         <!-- saturn -->
         <a-sphere position="100 1.25 -50" radius="9.14" color="#c6af71" material="shader: flat; src: planets/saturn.jpeg; side: double;"></a-sphere>
         <a-ring position="100 1.25 -50" color="#c1c1c1" radius-inner="10.14" radius-outer="22 "transparent="false" opacity="0.5" width="600"></a-ring>
+        <a-sound id="saturnSound" src="sounds/saturn.mp3" autoplay="false" position="100 1.25 -50" loop="true" volume="4"></a-sound>
+        <a-sound id="saturnSound2" src="sounds/saturn2.mp3" autoplay="false" position="100 1.25 -50" loop="true" volume="4"></a-sound>
+
         <!-- uranus -->
         <a-sphere position="150 1.25 -50" radius="3.98" color="#b7dfd3" material="shader: flat; src: planets/uranus.jpeg; side: double;"></a-sphere>
+        <a-sound id="uranusSound" src="sounds/uranus.mp3" autoplay="false" position="150 1.25 -50" loop="true" volume="2">
+        </a-sound>
+
         <!-- neptune -->
         <a-sphere position="175 1.25 -50" radius="3.86" color="#426bf2" material="shader: flat; src: planets/neptune.jpeg; side: double;"></a-sphere>
+        <a-sound id="neptuneSound" src="sounds/neptune.mp3" autoplay="false" position="175 1.25 -50" loop="true" volume="2">
+        </a-sound>
+
         <!-- pluto -->
         <a-sphere position="200 1.25 -50" radius="0.19" color="#e4e8f6"></a-sphere>
         <a-sky src="planets/stars.jpeg"></a-sky>

@@ -19,6 +19,11 @@ AFRAME.registerComponent('play-on-click', {
                 const earth4 = document.querySelector('#earthSound4');
                 const mars = document.querySelector('#marsSound');
                 const mars2 = document.querySelector('#marsSound2');
+                const jupiter = document.querySelector('#jupiterSound');
+                const saturn = document.querySelector('#saturnSound');
+                const saturn2 = document.querySelector('#saturnSound2');
+                const uranus = document.querySelector('#uranusSound');
+                const neptune = document.querySelector('#neptuneSound');
                 sun1.components.sound.playSound();
                 sun2.components.sound.playSound();
                 sun3.components.sound.playSound();
@@ -30,6 +35,11 @@ AFRAME.registerComponent('play-on-click', {
                 earth4.components.sound.playSound();
                 mars.components.sound.playSound();
                 mars2.components.sound.playSound();
+                jupiter.components.sound.playSound();
+                saturn.components.sound.playSound();
+                saturn2.components.sound.playSound();
+                uranus.components.sound.playSound();
+                neptune.components.sound.playSound();
             })
         })
     }
